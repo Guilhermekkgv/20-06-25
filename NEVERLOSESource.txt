@@ -400,8 +400,8 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 
 	HeadName.Name = "HeadName"
 	HeadName.Parent = Frame
-	HeadName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	HeadName.BackgroundTransparency = 1.000
+	HeadName.BackgroundColor3 = NEVERLOSE.Themes.SectionColor
+	HeadName.BackgroundTransparency = 0
 	HeadName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	HeadName.BorderSizePixel = 0
 	HeadName.Position = UDim2.new(0.0100000342, 0, 0.010000146, 0)
@@ -488,8 +488,8 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 
 	UserData.Name = "UserData"
 	UserData.Parent = Frame
-	UserData.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	UserData.BackgroundTransparency = 1.000
+	UserData.BackgroundColor3 = NEVERLOSE.Themes.SectionColor
+	UserData.BackgroundTransparency = 0
 	UserData.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	UserData.BorderSizePixel = 0
 	UserData.Position = UDim2.new(-0.000179085735, 0, 0.926525652, 0)
